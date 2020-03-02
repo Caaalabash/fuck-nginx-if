@@ -1,4 +1,4 @@
-# fuck_if
+# fuck-nginx-if
 
 ````
 docker-compose build && docker-compose up -d
