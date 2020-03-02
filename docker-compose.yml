@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  fuck-if:
+    container_name: fuck_if
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    restart: always
+    stdin_open: true
+    tty: true
+    ports:
+      - "8020:8020"
